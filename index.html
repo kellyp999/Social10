@@ -6,41 +6,41 @@
 
     One step closer to learn something interesting you are...
 
-                               ____                  
-                            _.' :  `._               
-                        .-.'`.  ;   .'`.-.           
-               __      / : ___\ ;  /___ ; \      __  
+                               ____
+                            _.' :  `._
+                        .-.'`.  ;   .'`.-.
+               __      / : ___\ ;  /___ ; \      __
              ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
              :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
-                  `:-.._J '-.-'L__ `-.-' L_..-;'     
-                    "-.__ ;  .-"  "-.  : __.-"       
-                        L ' /.======.\ ' J           
-                         "-.   "__"   .-"            
-                        __.l"-:_JL_;-";.__           
-                     .-j/'.;  ;""""  / .'\"-.        
-                   .' /:`. "-.:     .-" .';  `.      
-                .-"  / ;  "-. "-..-" .-"  :    "-.   
-             .+"-.  : :      "-.__.-"      ;-._   \  
-             ; \  `.; ;                    : : "+. ; 
-             :  ;   ; ;                    : ;  : \: 
-             ;  :   ; :                    ;:   ;  : 
-            : \  ;  :  ;                  : ;  /  :: 
-            ;  ; :   ; :                  ;   :   ;: 
-            :  :  ;  :  ;                : :  ;  : ; 
-            ;\    :   ; :                ; ;     ; ; 
-            : `."-;   :  ;              :  ;    /  ; 
-             ;    -:   ; :              ;  : .-"   : 
-             :\     \  :  ;            : \.-"      : 
-              ;`.    \  ; :            ;.'_..-=  / ; 
+                  `:-.._J '-.-'L__ `-.-' L_..-;'
+                    "-.__ ;  .-"  "-.  : __.-"
+                        L ' /.======.\ ' J
+                         "-.   "__"   .-"
+                        __.l"-:_JL_;-";.__
+                     .-j/'.;  ;""""  / .'\"-.
+                   .' /:`. "-.:     .-" .';  `.
+                .-"  / ;  "-. "-..-" .-"  :    "-.
+             .+"-.  : :      "-.__.-"      ;-._   \
+             ; \  `.; ;                    : : "+. ;
+             :  ;   ; ;                    : ;  : \:
+             ;  :   ; :                    ;:   ;  :
+            : \  ;  :  ;                  : ;  /  ::
+            ;  ; :   ; :                  ;   :   ;:
+            :  :  ;  :  ;                : :  ;  : ;
+            ;\    :   ; :                ; ;     ; ;
+            : `."-;   :  ;              :  ;    /  ;
+             ;    -:   ; :              ;  : .-"   :
+             :\     \  :  ;            : \.-"      :
+              ;`.    \  ; :            ;.'_..-=  / ;
               :  "-.  "-:  ;          :/."      .'  :
                \         \ :          ;/  __        :
                 \       .-`.\        /t-""  ":-+.   :
                  `.  .-"    `l    __/ /`. :  ; ; \  ;
-                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
-                    \ / .-"   /.     .'.' ;_:'    ;  
-                     :-""-.`./-.'     /    `.___.'   
-                           \ `t  ._  /               
-                            "-.t-._:'                
+                   \   .-" .-"-.-"  .' .'j \  /   ;/
+                    \ / .-"   /.     .'.' ;_:'    ;
+                     :-""-.`./-.'     /    `.___.'
+                           \ `t  ._  /
+                            "-.t-._:'
 
 -->
 
@@ -67,10 +67,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    <title>Social 10-1 Final Project - Globalization</title>
     
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
+    <meta name="author" content="Colton Plaschewsky" />
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
@@ -148,7 +148,7 @@
     to next slide after a timeout expires.
     
 -->
-<div id="impress" data-autoplay="7">
+<div id="impress" data-autoplay="0">
 
     <!--
         
@@ -170,9 +170,7 @@
         Plugins: For first slide, set the autoplay time to a custom 10 seconds.
         
     -->
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500" data-autoplay="10">
-        <q>Aren’t you just <b>bored</b> with all those slides-based presentations?</q>
-    </div>
+   
 
     <!--
         
@@ -189,13 +187,45 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
     -->
+    <div id="intro" class="step" data-x="0" data-y="0" data-rotate="180" data-scale="4">
+        <center>Social 10-1</center>
+        <center>Final Project</center>
+        <center>To What Extent Should We Embrace Globalization?</center>
+        <center><img src="img/globalization.jpg" style="width:600px; height:auto;"></center>
+        <center> <b>Colton Plaschewsky</b></center>
+    </div>
+
+
+    <div id="tiny" class="step" data-x="0" data-y="0" data-z="-3000" data-rotate="300" data-scale="1">
+        <center>Enjoy the show</center>
+         <center><img src="img/theater.jpg" style="width:600px; height:auto;">
+        </center>
+        
+    </div>
+
+
+
+
+
+    <!--
+    
+    <div id="intro" class="step slide" data-x="-1000" data-y="-1500" data-autoplay="10">
+      <q>It has been a long semester and I have learned a lot of new things about the worlds governments, trade and globalization.</q>
+    </div>
+
+
+    
     <div class="step slide" data-x="0" data-y="-1500">
-        <q>Don’t you think that presentations given <strong>in modern browsers</strong> shouldn’t <strong>copy the limits</strong> of ‘classic’ slide decks?</q>
+      <q>Would you like to see how <strong>much</strong> I have learned this year?</q>
     </div>
 
     <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+      <q>Sit back, relax and enjoy the show</q>
+    
     </div>
+
+    -->
+
 
     <!--
         
@@ -207,29 +237,23 @@
         down (4 times) to make it back to its correct size.
         
     -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+    <div id="ProjectObjective" class="step" data-x="-1000" data-y="-3000" data-scale="1">
+        <center><b>Project Objective</b></center>
+        <br>
+        <p align="left" style="font-size:30px;">
+          To know if we should fully embrace or minimize globalization we must look at specific examples of each of the four pillars of globalization; Trade Liberalization, Westernization, Technological Advancement, and Global Integration. The effects of globalization need to be taken into account as well.  How globalization shapes identity, affects the economy,  removes barriers (Trade Liberalization), and the legacies of globalization will be addressed. I will find examples in history of the four factors as well as modern examples. These four factors should infer the extent we should embrace globalization.
+        </p>
+        
     </div>
 
-    <!--
-        
-        This element introduces rotation.
-        
-        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
-        element should be rotated by 90 degrees clockwise.
-        
-    -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It’s a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
-    </div>
-
+    
+ <!--
+   
     <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
         <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
     </div>
+    -->
+
 
     <!--
         
@@ -240,9 +264,14 @@
         positioned far away from us (by 3000px).
         
     -->
+  
+  
+  <!--
     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
         <p>and <b>tiny</b> ideas</p>
     </div>
+
+    -->
 
     <!--
         
@@ -263,26 +292,284 @@
         So basically every step element has one of three classes: `future`, `present` and `past`.
         Only one current step has the `present` class.
         
-        Note: data-x/y/z attributes, if not defined, by default will inherit the value of the 
+        Note: data-x/y/z attributes, if not defined, by default will inherit the value of the
         previous step. So to get back to 0 on the z-axis, we must set it to 0.
         See src/plugins/rel/README.md for more information.
         
     -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-z="0" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    
+    
+    <div id="GlobalizationIdentity" class="step" data-x="-4500" data-y="-3850" data-z="0" data-rotate="0" data-scale="6">
+      <p align="left" style="font-size:30px;">To What Extent should Globalization Shape Identity?</p>
+    </div>
+    
+    <div id="WorldBank" class="step" data-x="-8000" data-y="-7500" data-z="0" data-rotate="270" data-scale="6">
+      <h1><center>World Bank</center></h1>
+        <center><img src="img/worldbank.jpg" style="width:600px; height:auto;"></center>
+    
+      <p align="left" style="font-size:25px;">
+        Since its founding in 1947 at the Bretton Wood conference, the World Bank’s primary goal has been to reduce extreme poverty. It has attempted to do this by bridging the gap between wealthy and poor countries. The bank tries to give poor countries resources from wealthier countries to bridge the gap between the two. It shapes identity because the World Bank is controlled by the most powerful countries in the world which are mostly in the west. This results in western ideals (Westernization) being pushed onto the developing countries which eventually decrease their identity.
+      </p>
+
+      <ul align="left" style="font-size:25px;">
+        <li>Western countries have been shaping identities around the world because they are the most powerful.</li>
+      </ul>
+      
+    </div>
+    
+    
+    <div id="McDonaldization1" class="step" data-x="-3000" data-y="-10000" data-z="0" data-rotate="0" data-scale="6">
+     <h1><center>McDonaldization</center></h1>
+     <center><img src="img/mcdonaldization.jpg" style="width:300px; height:auto;"></center>
+      <p align="left" style="font-size:20px;">
+        In the 1993 a sociologist, George Ritzler wrote a book on the globalization of the Mcdonald’s fun chain. In the book he discussed how Mcdonalds was majorly marginalizing the world into one culture. This statement was backed up by four points; efficiency, calculability, predictability/standardization, and control.
+      <p align="left" style="font-size:20px;">
+        Efficiency is defined as an optimal method for completing a task. In Ritzler’s case the fastest way to get from being hungry to being nourished.
+      </p>
+      <p align="left" style="font-size:20px;">
+        Calculability in Ritzler’s case was that a high quantity but lower quality product will equal a low quantity but a high quality product.
+      </p>
+      <p align="left" style="font-size:20px;">
+        Predictability/Standardization refers to the point that no matter where someone goes they will receive the same service and product a (standard).
+      </p>
+      <p align="left" style="font-size:20px;">
+        Control in Ritzler’s eyes was to eventually replace humans doing a task with non-human technologies.
+      </p>
+    </div>
+    
+    <div id="McDonaldization2" class="step" data-x="-3000" data-y="-6000" data-z="0" data-rotate="0" data-scale="6">
+    
+      <p align="left" style="font-size:20px;">
+        Through those four ideas McDonald's has been able to shape people's identities. World wide McDonalds and has affected cultures.  Example: Japan
+      <p align="left" style="font-size:20px;">
+        In 1971, the first McDonald's in Japan was opened by a local restaurant owner. In Japanese culture, food is to be eaten together sharing the meal. McDonald’s burgers are meant to be eaten individually so they adopted the McRice, therefore allowing food to be shared. Later, chairs and tables were removed from the seating areas and replaced with large counters to eat from. This would later be adopted in other Mcdonald's restaurants, however not all locations have moved to this model.
+      </p>
+      <p align="left" style="font-size:20px;">
+        It is fair to say that nowadays, consumer do not care what model the restaurant is as Japan makes a considerable amount of the profits for McDonalds globally.
+      </p>
+      <p align="left" style="font-size:20px;">
+      Mcdonaldization has created many pros and cons:
+      </p>
+      <p align="left" style="font-size:20px;">Pros:</p>
+      <ul align="left" style="font-size:20px;">
+        <li>Has created a standard worldwide as to what to expect for service. </li>
+        <li>Japan is one of the most profitable countries in the Mcdonald's chain. </li>
+      </ul>
+      <p align="left" style="font-size:20px;">Cons:</p>
+      <ul align="left" style="font-size:20px;">
+        <li>In doing so has decreased diversity in specific collective groups identity worldwide marginalizing the world.</li>
+        <li>It is demonstrated that collective groups do not care as Japan has gone away from its collective identity of eating in groups and sharing food together.</li>
+      </ul>
+      
+      
+      <p align="left" style="font-size:15px;">
+       https://www.worldatlas.com/articles/countries-with-the-most-mcdonald-s-restaurant.html
+      </p>
+      
+    </div>
+    
+    <div id="IdenfityBenefitsDownsides" class="step" data-x="-4000" data-y="-500" data-z="0" data-rotate="-270" data-scale="6">
+      <h1>Benefits & Downsides of Globalization Affecting Identity</h1>
+      <p align="left" style="font-size:20px;">
+        The World Bank is mainly controlled by the rich and powerful western countries which has left disparity across the globe. Today, the World Bank is still controlled by the rich and powerful countries. Although, through McDonaldization they are able to greatly affect Identity by marginalizing the world to the western ways. I believe there needs to be slight changes so that cultures are not affected as much. Instead of having a standard for all McDonalds worldwide, there could be specific standards within different countries reflecting specific cultural values. This would allow different cultures to continue to exist which can grow in their own direction rather then following the west.
+    </div>
+  
+
+
+    <div id="GlobalEconomy" class="step" data-x="14500" data-y="-3850" data-z="0" data-rotate="0" data-scale="6">
+      <p align="left" style="font-size:30px;">To What Extent Should We Embrace a Global Economy?</p>
     </div>
 
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+
+    <div id="BritishinIndia" class="step" data-x="12000" data-y="-7500" data-z="0" data-rotate="270" data-scale="6">
+      <h1><center>British in India</center></h1>
+    
+     <center><img src="img/BritishIndia.jpg" style="width:200px; height:auto;"></center>
+    
+      <p align="left" style="font-size:25px;">
+        The British took over India by having power in three aspects that control the market; land, labour, and resources. Since the British controlled Indian affairs many horrific acts resulted. However, Gandhi peacefully used the British laws to fight India’s sovereignty. The freedom of India took a long time to achieve through peaceful means as they did not use violence to free themselves but instead simply stopped working and attempted to crash the market. The British did however use means of violence to get citizens back to work. Through the removal of trade barriers the British took advantage of the Indians and pushed western ideals on them.
+      </p>
+      <ul align="left" style="font-size:25px;">
+        <li>When the global economy was embraced it left the British getting healthier and wealthier as India was becoming poorer.</li>
+      </ul>
     </div>
 
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+    <div id="IMF" class="step" data-x="17000" data-y="-7500" data-z="0" data-rotate="0" data-scale="6">
+      <h1><center>International Monetary Fund (IMF)</center></h1>
+    
+     <center><img src="img/imf.jpg" style="width:200px; height:auto;"></center>
+    
+      <p align="left" style="font-size:25px;">
+       The goal of the IMF is to keep track of the global economy and countries economies inside the IMF. The IMF tells countries how to improve their economies and risks that their economies have. As we learned in watching the dolphin documentary, global governments that are “controlled by no country” can be compromised by unethical practices by member countries through vote buying. Each country in the world government is only supposed to have one vote, however the wealthier countries can buy votes, essentially controlling the global economy.
+      </p>
+      <ul align="left" style="font-size:25px;">
+        <li>Embracing a global economy would result in embracing westernization as the powerful countries are in the west and have the ability to control the global economies.  I believe we need to embrace some aspects of a global economy like the UN if they are willing to change and distribute power more equally.</li>
+      </ul>
+      <p align="left" style="font-size:20px;">
+        https://www.imf.org/en/About
+      </p>
+    </div>
+
+
+    <div id="GlobalProsCons" class="step" data-x="15000" data-y="-500" data-z="0" data-rotate="-270" data-scale="6">
+      <h1>Pros & Cons of Embracing a Global Economy</h1>
+    
+      <p align="left" style="font-size:25px;">
+       As the global economy is embraced it has made wealthy countries wealthier and given them power in history. In India, Gandhi and the people fought peacefully against it and removed the British from India. Today the same problem exists as wealthy countries have control over what is supposed to be governed by all countries fairly. In Canada this is not a grave concern since Canada is one of the wealthier developed countries and somewhat has a voice globally even though it is not as big as the US. If one is living in a developing country with no power than it can be disastrous because that country’s voice will probably not get heard. In a way this is similar to the problems India had as what they wanted they did not get for a long time. If Global Economies are to be embraced to a full extent then there will need to be changes to allow a more equal distribution of power.
+      </p>
+    </div>
+
+
+
+    <div id="TradeLiberalization" class="step" data-x="-7000" data-y="13000" data-z="0" data-rotate="0" data-scale="6">
+      <p align="left" style="font-size:30px;">To what Extent Should We Embrace Trade Liberalization?</p>
+    </div>
+
+    <div id="SilkRoad" class="step" data-x="-9000" data-y="10000" data-z="0" data-rotate="270" data-scale="6">
+      <h1><center>Silk Road</center></h1>
+    
+     <center><img src="img/silkroad.jpg" style="width:200px; height:auto;"></center>
+    
+      <p align="left" style="font-size:25px;">
+        The Silk Road was a trade network between the Ottoman Empire, China, and Europe. The Silk Road was established 130 B.C. and was used until 1453 A.D. It was a huge road that connected many countries together for trade. However, the increased trade between nations also increased diseases. Thus, the Silk Road was shut down and many small villages adjoining the road were abandoned shortly after the exploration of the “New World” began.
+      </p>
+      <ul align="left" style="font-size:25px;">
+        <li>The Silk Road benefited many countries economically but also hurt them due to the spread of diseases.</li>
+      </ul>
+      
+      <p align="left" style="font-size:20px;">
+        http://factsanddetails.com/china/cat2/sub90/entry-5443.html
+        https://www.history.com/topics/ancient-middle-east/silk-road
+      </p>
+      <p align="left" style="font-size:20px;">
+        
+      </p>
+      
+    </div>
+
+    <div id="NAFTA" class="step" data-x="-4500" data-y="10000" data-z="0" data-rotate="0" data-scale="6">
+      <h1><center>NAFTA/USMCA</center></h1>
+    
+      <center><img src="img/nafta.png" style="width:200px; height:auto;"></center>
+    
+    
+      <p align="left" style="font-size:25px;">
+        North American Free Trade Agreement (NAFTA), now known as USMCA has tripled trade between the United States, Canada, and Mexico, as well, it has  increased economic output. NAFTA created 5.4 million jobs and supported 17.7 million across the three countries. NAFTA has also caused hundreds of thousands of jobs to be lost in the US, specifically in the manufacturing sector. Mexican farmers were put out of business because there were no tariffs on food.
+      </p>
+      <ul align="left" style="font-size:25px;">
+        <li>NAFTA benefited all three economies, significantly creating millions of jobs, however some sectors of the economy were damaged by this agreement like agriculture and manufacturing.</li>
+      </ul>
+      
+      <p align="left" style="font-size:20px;">
+        https://www.thebalance.com/nafta-pros-and-cons-3970481
+      </p>
+      
+    </div>
+
+    <div id="LiberalizationProsCons" class="step" data-x="-7000" data-y="16000" data-z="0" data-rotate="-270" data-scale="6">
+      <h1>Pros and Cons of Embracing Trade Liberalization </h1>
+    
+      <p align="left" style="font-size:30px;">
+        In history it benefited a lot of people economically through the countries connected to the silk road and helped with the spread of diseases. However, nowadays with modern medicine the spread of diseases isn’t as big of a problem. The benefits today are they benefit the economy drastically giving millions of people jobs. It does hurt a select few industries and thousands lost their jobs like farming sectors and manufacturing.
+      </p>
+    </div>
+
+
+    <div id="Legacies" class="step" data-x="12000" data-y="13000" data-z="0" data-rotate="0" data-scale="6">
+      <p align="left" style="font-size:30px;">Legacies</p>
+    </div>
+
+    <div id="Assimilation" class="step" data-x="7000" data-y="10000" data-z="0" data-rotate="270" data-scale="6">
+      <h1><center>Assimilation of First Nation Children</center></h1>
+    
+      <center><img src="img/residentialschools.jpg" style="width:200px; height:auto;"></center>
+    
+    
+        <p align="left" style="font-size:25px;">
+        In Canada once the Europeans had established forts they began to make treaties with the First Nations peoples of Canada. These were called the Numbered Treaties. The First Nations would receive limited land, monetary compensation, farming tools, and education. The Europeans/Canadians would receive land rights, promise of peace, law, and order, and restricted use of alcohol on reserves. Later, the Indian Act was passed and focused on three mains points; band councils, reserves and status Indians. The main goal of this act was to assimilate the Native people into the European way of life. Residential schools were a primary way to assimilate First Nations children as we saw in the film. This resulted with children being mistreated and abused. Their relatives did not know understand what was happening on the Residential schools and when the children escaped they were sent back because it was the law and the relatives thought the school was helping.
+      </p>
+      
+    </div>
+
+
+    <div id="FirstNations" class="step" data-x="13000" data-y="10000" data-z="0" data-rotate="0" data-scale="6">
+      <h1><center>First Nations</center></h1>
+    
+      <center><img src="img/firstnations.jpg" style="width:200px; height:auto;"></center>
+    
+      <p align="left" style="font-size:25px;">
+        In today's world First Nations still have to live with the legacies of the terrible actions of the past. The World’s Health Organization identified the European colonization as severely affecting the health of indigenous people. Indigenous people have a higher rate of death at an early age and have higher rate of diabetes and heart problems.
+      </p>
+      <ul align="left" style="font-size:25px;">
+        <li>The Canadian government has attempted to repair the relationship with the First Nations; Prime Minister Stephen Harper made an official apology. However, further to that there have not been any substantial acts of reconciliation.</li>
+      </ul>
+      
+      <p align="left" style="font-size:20px;">
+        https://www.ictinc.ca/blog/8-key-issues-for-indigenous-peoples-in-canada
+      </p>
+      
+    </div>
+
+
+    <div id="WhatShouldWeDo" class="step" data-x="10000" data-y="16000" data-z="0" data-rotate="-270" data-scale="6">
+      <h1>What Should We Do With The Legacies Left Behind For Us?</h1>
+    
+      <p align="left" style="font-size:30px;">
+        With the legacies, we can chose to try and fix problems in which are ancestors have left behind. For the first Nations we can do more than just apologize, we can do the points on the “94 Calls to Action”. We can also help them by giving them more accessible hospitals and medical supplies. Donations or rehab centers can be established closer to their residences to help with drugs and alcoholism so First Nations have accessibility to help like those facilities that exist in city centres.
+      </p>
+    </div>
+
+
+
+    <div id="ing" class="step" data-x="5000" data-y="-850" data-z="0" data-rotate="270" data-scale="6">
+        <center><img src="img/globalization2.jpg" style="width:500px; height:auto;"></center>
+        <p><b class="positioning">To What Extent Should We </b><b class="rotating">Embrace</b> <b class="scaling">Globalization</b></p>
+        
+    </div>
+
+    <div id="EmbraceGlobal" class="step" data-x="9200" data-y="-900" data-scale="6">
+    <p align="left" style="font-size:30px;">I believe that we need to embrace some aspects of globalization, while others aspects need to change immediately, and some others are not as pressing of matters. Legacies need to be changed immediately and the relationship between First Nations needs to be repaired. The way in which globalization affects identity needs to be minimally changed . McDonald’s could have certain standards within a country or each specific collective group, creating more diversity among McDonald’s worldwide. I believe agreements like NAFTA or USMCA need to be fully embraced as they benefit all three partners with only small downsides. We need to change the global economy so that it becomes equal for more partners not just the rich and powerful countries in the west. I do believe wealthier countries should have a greater vote but all countries  should have their voices heard and be recognized so that they may grow and be able to prosper one day too.
+    </p>
+    </div>
+
+
+    <div id="Sources" class="step" data-x="4000" data-y="-7000" data-z="0" data-rotate="-270" data-scale="6">
+      <h1><center>Sources</center></h1>
+    
+      <p align="left" style="font-size:20px;">
+        https://en.wikipedia.org/wiki/Numbered_Treaties
+      </p>
+      
+      <p align="left" style="font-size:20px;">
+        https://www.imf.org/en/About
+      </p>
+      
+      <p align="left" style="font-size:20px;">
+        https://www.ictinc.ca/blog/8-key-issues-for-indigenous-peoples-in-canada
+      </p>
+      
+      <p align="left" style="font-size:20px;">
+        http://factsanddetails.com/china/cat2/sub90/entry-5443.html
+      </p>
+      
+      <p align="left" style="font-size:20px;">
+        https://www.history.com/topics/ancient-middle-east/silk-road
+      </p>
+      
+      <p align="left" style="font-size:20px;">
+        https://medium.com/@GWBPC/growth-prosperity-and-the-middle-class-saving-globalization-from-populism-a1310ad4c393
+      </p>
+      
+    </div>
+
+
+    <div id="source" class="step" data-x="9300" data-y="4000" data-rotate="20" data-scale="4">
         <p>want to know more?</p>
-        <q><a href="http://github.com/impress/impress.js">use the source</a>, Luke!</q>
+        <q>Sign up for Social 10-1, Luke!</q>
     </div>
 
     <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
+        <p>I hope you enjoyned the presentation</p>
     </div>
 
     <!--
@@ -298,8 +585,7 @@
         
     -->
     <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it’s</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
+        <p><span class="have">The</span> <span class="you">End</span></p>
     </div>
 
     <!--
@@ -317,7 +603,7 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
         
     -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="20">
     </div>
 
 </div>
@@ -358,7 +644,7 @@
        Press 'P' to launch speaker console.</p>
 </div>
 <script>
-if ("ontouchstart" in document.documentElement) { 
+if ("ontouchstart" in document.documentElement) {
     document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
 }
 </script>
@@ -431,7 +717,7 @@ if ("ontouchstart" in document.documentElement) {
     Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
     it earlier, because you'll only waste your time fighting with positioning of useless points.
     
-    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about
     creating awesome and engaging presentations.
     
     Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
